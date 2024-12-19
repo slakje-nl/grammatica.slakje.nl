@@ -1,0 +1,26 @@
+body { background-color: #333 !important }
+#stroopwafel { filter: invert(0.9); width: 10% }
+#regular, #footer, #footer a { color: #ccc }
+
+.row-with-line {
+    border-top: 1px solid #ddd;
+}
+
+.darker-border-top {
+    border-top: 2px solid #aaa;
+}
+
+.darker-border-bottom {
+    border-bottom: 2px solid #aaa;
+}
+
+.no-border-bottom {
+    border-bottom-color: #fff
+}
+
+@media only screen and (max-width : 1300px) {
+    span.break-on-mobile:after {
+        content:"\a";
+        white-space: pre;
+    }
+}
